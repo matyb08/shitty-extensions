@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Search with YouTube Music",
+	"description": "Search YouTube Music for highlighted song title.",
+	"version": "1.0",
+	"background":
+	{
+		"scripts": ["background.js"]
+	},
+	"icons":
+	{
+		"128": "icon.png"
+	},
+	"permissions":
+	[
+		"tabs",
+		"activeTab"
+	],
+	"browser_action":
+	{
+		"default_title": "Search with YouTube Music"
+	}
+}
