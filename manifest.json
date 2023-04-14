@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Search with Search Engine",
+	"description": "Search highlighted text in your favourite search engine.",
+	"version": "1.0",
+	"background":
+	{
+		"scripts": ["background.js"]
+	},
+	"icons":
+	{
+		"128": "icon.png"
+	},
+	"permissions":
+	[
+		"tabs",
+		"activeTab"
+	],
+	"browser_action":
+	{
+		"default_title": "Search with search engine"
+	}
+}
